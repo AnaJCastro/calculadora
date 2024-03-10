@@ -5,7 +5,7 @@ int main()
     float numero1, numero2, resultado;
     int tipo;
      printf("para soma, digite 1, para substração digite 2, para multiplicação digite 3, para divisão digite 4, para sair digite 5");
-    scanf("¨%i",&tipo);
+    scanf("%i",&tipo);
 
     //significa que quando escolher outro numero que não seja 5, repetirá o codigo normalmente.
     while(tipo != 5) 
